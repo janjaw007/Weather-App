@@ -3,3 +3,16 @@
   padding: 0;
   margin: 0;
 }
+
+.title {
+  text-align: center;
+}
+.content-container {
+  border: 1px solid red;
+  width: 90dvw;
+  margin: 0 auto;
+}
+
+.content-title {
+  text-align: center;
+}
