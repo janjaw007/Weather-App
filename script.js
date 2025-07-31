@@ -10,6 +10,7 @@ function getLocation() {
     navigator.geolocation.getCurrentPosition(success, error);
   } else {
     alert("Geolocation is not supported by this browser.");
+    titleElement.textContent = "Geolocation is not supported by this browser.";
   }
 }
 
@@ -26,5 +27,6 @@ function success(position) {
 
 function error() {
   alert("Sorry, No position Available");
+  titleElement.textContent = "Sorry, No position Available";
 }
 getLocation();
